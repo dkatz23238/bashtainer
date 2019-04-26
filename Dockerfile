@@ -19,6 +19,6 @@ RUN mv /dataset.csv /ML-data/dataset.csv
 
 
 # Run the app
-RUN python -m pip install -U -r /app/app/requirements.txt
+RUN python -m pip install -U requests
 
 CMD ["/usr/bin/python3.7", "-u", "/app/basicapp.py"]
